@@ -32,6 +32,17 @@ Namelti は開発における初期段階です。
     佐藤敏紀
     サトウトシノリ, サトウサトシキノ, サトウサトシオサム, サトウトシキノ
 
+#### Docker Examples
+- MacBookPro(M2 Max)
+
+```
+docker build --platform linux/amd64 -t mynamelti .
+```
+
+```
+docker run -it --platform linux/amd64 mynamelti:latest
+```
+
 ## Copyrights
 Copyright (c) 2018-2019 Toshinori Sato (@overlast) All rights reserved.
 
